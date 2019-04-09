@@ -44,7 +44,7 @@ public class insect extends AppCompatActivity {
 
     public void getJson(final ListView listView) {
 
-        String url = "http://192.168.56.1/kai/data/insect.php";
+        String url = "http://--------/kai/data/insect.php";
 
         JsonArrayRequest request = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {

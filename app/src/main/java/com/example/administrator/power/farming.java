@@ -42,7 +42,7 @@ public class farming extends AppCompatActivity {
 
     public void getJson(final ListView listView) {
 
-        String url = "http://192.168.56.1/kai/data/farming.php";
+        String url = "http://--------/kai/data/farming.php";
 
         JsonArrayRequest request = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {

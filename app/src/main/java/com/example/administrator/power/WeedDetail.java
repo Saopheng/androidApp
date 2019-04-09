@@ -42,11 +42,11 @@ public class WeedDetail extends AppCompatActivity {
                 newString= null;
             } else {
                 newString= extras.getString("name");
-                url = "http://192.168.56.1/kai/data/WeedDetail.php?id="+newString;
+                url = "http://--------/kai/data/WeedDetail.php?id="+newString;
             }
         } else {
             newString= (String) savedInstanceState.getSerializable("name");
-            url = "http://192.168.56.1/kai/data/WeedDetail.php?id="+newString;
+            url = "http://--------/kai/data/WeedDetail.php?id="+newString;
         }
 
 

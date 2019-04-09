@@ -43,11 +43,11 @@ public class InsectDetail extends AppCompatActivity {
                 newString= null;
             } else {
                 newString= extras.getString("name");
-                url = "http://192.168.56.1/kai/data/InsectDetail.php?id="+newString;
+                url = "http://--------/kai/data/InsectDetail.php?id="+newString;
             }
         } else {
             newString= (String) savedInstanceState.getSerializable("name");
-            url = "http://192.168.56.1/kai/data/InsectDetail.php?id="+newString;
+            url = "http://--------/kai/data/InsectDetail.php?id="+newString;
         }
 
 
