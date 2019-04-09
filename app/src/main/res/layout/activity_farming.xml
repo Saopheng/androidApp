@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".farming">
+
+    <ListView
+        android:id="@+id/farming_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"></ListView>
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<Button-->
+            <!--android:id="@+id/button12"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="นาดำ"-->
+            <!--android:layout_marginTop="250dp"-->
+            <!--android:textSize="20sp"-->
+            <!--android:padding="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:layout_marginRight="80dp"-->
+            <!--android:layout_marginLeft="80dp"-->
+            <!--android:layout_marginBottom="20dp" />-->
+    <!---->
+        <!--<Button-->
+            <!--android:id="@+id/button13"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="นาหว่านตม,แห้ง"-->
+            <!--android:layout_marginTop="150dp"-->
+            <!--android:textSize="20sp"-->
+            <!--android:padding="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:layout_marginRight="80dp"-->
+            <!--android:layout_marginLeft="80dp"-->
+            <!--android:layout_marginBottom="20dp" />-->
+    <!---->
+        <!--<Button-->
+            <!--android:id="@+id/button14"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="นาหยอด"-->
+            <!--android:layout_marginTop="250dp"-->
+            <!--android:textSize="20sp"-->
+            <!--android:padding="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:layout_marginRight="80dp"-->
+            <!--android:layout_marginLeft="80dp"-->
+            <!--android:layout_marginBottom="20dp" />-->
+    <!---->
+        <!--<Button-->
+            <!--android:id="@+id/button15"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="นาขั้นบันได"-->
+            <!--android:layout_marginTop="350dp"-->
+            <!--android:textSize="20sp"-->
+            <!--android:padding="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:layout_marginRight="80dp"-->
+            <!--android:layout_marginLeft="80dp"-->
+            <!--android:layout_marginBottom="20dp" />-->
+    <!---->
+        <!--<Button-->
+            <!--android:id="@+id/button16"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="นาที่สูง"-->
+            <!--android:layout_marginTop="450dp"-->
+            <!--android:textSize="20sp"-->
+            <!--android:padding="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:layout_marginRight="80dp"-->
+            <!--android:layout_marginLeft="80dp"-->
+            <!--android:layout_marginBottom="20dp" />-->
+    <!--</RelativeLayout>-->
+</RelativeLayout>

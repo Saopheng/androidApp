@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.power">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".calender"/>
+        <activity android:name=".price"
+            android:label="Price"
+            android:parentActivityName=".nourish"/>
+        <activity android:name=".fertilizer"
+            android:label="Fertilizer"
+            android:parentActivityName=".nourish"/>
+        <activity android:name=".weed"
+            android:label="Weed"
+            android:parentActivityName=".nourish"/>
+        <activity android:name=".insect"
+            android:label="Insect"
+            android:parentActivityName=".nourish"/>
+        <activity android:name=".disease"
+            android:label="Disease"
+            android:parentActivityName=".nourish"/>
+        <activity android:name=".page1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".rice_var"
+            android:label="พันธุ์ข้าวและปลูกข้าว"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".nourish"
+            android:label="Care"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".rice"
+            android:label="Rice"
+            android:parentActivityName=".rice_var"/>
+        <activity android:name=".area"
+            android:label="Area"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".farming"
+            android:label="Farming"
+            android:parentActivityName=".rice_var"/>
+
+        <activity android:name=".RiceDetail"
+            android:label="RiceDetail"
+            android:parentActivityName=".rice"/>
+        <activity android:name=".DiseaseDetail"
+            android:label="DiseaseDetail"
+            android:parentActivityName=".disease"/>
+        <activity android:name=".InsectDetail"
+            android:label="InsectDetail"
+            android:parentActivityName=".insect"/>
+        <activity android:name=".WeedDetail"
+            android:label="WeedDetail"
+            android:parentActivityName=".weed"/>
+        <activity android:name=".FertilizerDetail"
+            android:label="FertilizerDetail"
+            android:parentActivityName=".fertilizer"/>
+    </application>
+
+</manifest>

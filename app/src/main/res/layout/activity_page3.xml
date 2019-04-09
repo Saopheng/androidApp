@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page3">
+
+    <ImageView
+        android:id="@+id/imageViewField"
+        android:layout_width="wrap_content"
+        android:layout_height="246dp"
+        android:background="@drawable/r9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewField"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonCultivationArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="พื้นที่เพาะปลูก"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="ปลูกข้าว"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <!--<Button-->
+            <!--android:id="@+id/buttonBlack"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="80dp"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginRight="80dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="Black"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textSize="20sp" />-->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
